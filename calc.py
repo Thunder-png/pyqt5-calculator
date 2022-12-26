@@ -14,6 +14,8 @@ class Window(QMainWindow):
 
 		# Pencere Başlığı
 		self.setWindowTitle("Hesap Makinesi")
+		# Pencere ikonu
+		self.setWindowIcon(QIcon('./assets/calculator.png'))
 
 		# Pencerenin Geometrisi(x,y)
 		self.setGeometry(100, 100, 360, 350)
